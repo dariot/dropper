@@ -5,7 +5,7 @@ Create your dropper:
 
 ```
 var dropper = new Dropper({
-    id: 'droparea'
+    id: 'droparea',
     handler: function(file) {
         alert(file.name);
     }

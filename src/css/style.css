@@ -1,0 +1,14 @@
+.droparea {
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 15px;
+    border: solid 2px black;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    vertical-align: middle;
+}
+
+.droparea:hover {
+    border-style: dashed;
+}

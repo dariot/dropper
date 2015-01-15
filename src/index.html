@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <script type="text/javascript" src="js/dropper.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                var dropper = new Dropper({
+                    handler: function(file) {
+                        console.log(file.name);
+                    }
+                });
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="droparea" class="droparea">Drop files here</div>
+    </body>
+</html>
